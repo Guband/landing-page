@@ -1,0 +1,248 @@
+body{
+  background: ghostwhite;
+  }
+.topnav {
+  display: flex;
+  background-color: black;
+  overflow: hidden;
+  position: fixed; 
+  margin-left: 680px;
+  border-radius: 25px;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 46px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:"Arial Black", Gadget, sans-serif;
+}
+.topnav a:hover {
+  background-color: tomato;
+  color: black;
+}
+.topnav a.active {
+  background-color: green;
+  color: white;
+}
+
+#header-img
+{
+  height: 90px;
+  width: 90px;
+  display: ;
+  margin: 100 auto;
+  margin-left: -5px;
+  border-radius: 10px;
+  position: relative;
+  top:-1px
+  
+}
+#img-service{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 2px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+}
+#img-fitter{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 2px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+}
+#img-price{
+   height: 100px;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 2px;
+  border-radius: 5px;
+  position: relative;
+  top: 50px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 945px;
+  height: 465px;
+  border: 5px solid tomato;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  margin-left: 350px;
+  margin-right: auto;
+  opacity: .8;
+}
+.flex-container > div {
+  background-color: tomato;
+  width: 250px;
+  margin: 20px;
+  text-align: center;
+  line-height: 300px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: white;
+  }
+}
+#title{
+  color: tomato;
+  top: -110px;
+  position: relative;
+  margin-left: 85px;
+  font-size: 32px;
+  font-family: "Comic Sans MS";
+}
+#email{
+  font-size:16px;
+  top: -52px;
+  position: relative;
+  margin-left: 730px;
+  border: 2px solid black;
+  width:250px;
+  text-align: center;
+}
+#fill{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  position: relative;
+  margin-left: 520px;
+}
+#submit{
+  color: black;
+  background-color: tomato;
+  border: 2px solid black;
+  font-size: 17px;
+  top: -52px;
+  position: relative;
+}
+#service-text{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 23px;
+  top: -50px;
+  position: relative;
+  margin-left: 120px
+}
+#fitter-text{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 23px;
+  top: -50px;
+  position: relative;
+  margin-left: 120px
+}
+#price-text{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 23px;
+  top: -50px;
+  position: relative;
+  margin-left: 120px
+}
+#video{
+  position: relative;
+  margin-left: 220px;
+  margin-top: -50px
+}
+#video-text{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  position: relative;
+  margin-left: 280px;
+  top: -70px;
+}
+#partners{
+  color: black;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  position: relative;
+  margin-left: 750px;
+  margin-top: -95px;
+  top: 5px;
+}
+#ikea{
+  color: blue;
+  font-size: 33px;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#container1{
+  background-color: tomato;
+  width:920px;
+  align-self:left; 
+  padding: 1%;
+  position: relative;
+  left: 350px
+}
+#container2{
+  background-color: tomato;
+  width:920px;
+  align-self:left; 
+  padding: 1%;
+  position: relative;
+  left: 350px
+}
+#container3{
+ background-color: tomato;
+  width:920px;
+  align-self:left; 
+  padding: 1%;
+  position: relative;
+  left: 350px
+}
+
+#productTerms{
+  background-color: red;
+  width:1510px;
+  align-self:left; 
+  padding: 2%;
+  margin: ;
+  font-color: white;
+  opacity: 2;
+}
+#container4{
+   background-color: tomato;
+  width:920px;
+  align-self:left; 
+  padding: 1%;
+  position: relative;
+  left: 350px;
+}
+ol{
+  text-align:center;
+  font-size: 15px;
+  width: auto;
+  height: auto;
+list-style: none;
+  color: white;
+  flex-direction: row;
+  
+}
+
+h6{
+  font-family: arial;
+  text-align:center;
+  color: white;
+  font-size: 15px;
+}
+h2{
+  text-align: center;
+  padding: 30px;
+  color: white;
+  }
